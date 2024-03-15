@@ -39,7 +39,7 @@ import Layout from "../layouts/Layout.astro";
     left: 0;
     width: 40%;
     height: 100%;
-    background-color: rgba(11, 14, 16, 0.6);
+    background: linear-gradient(to right, rgba(11, 14, 16, 0.6), rgba(0,0,0,0));
     z-index: 2;
   }
   .blur-circle1 {
@@ -114,50 +114,49 @@ import Layout from "../layouts/Layout.astro";
       justify-content: center;
     }
 
-    .principal, .gradient{
+    .principal,
+    .gradient {
       width: 100%;
       padding: 0;
       align-items: center;
       height: 900px;
     }
 
-    .secondary{
+    .secondary {
       width: 100%;
       padding: 0;
       align-items: center;
       height: 500px;
     }
 
-    .blur-circle1{
+    .blur-circle1 {
       background: radial-gradient(
-      circle 592px at 20% 20%,
-      #8134ff 20%,
-      rgba(11, 14, 16, 0.5) 100%
-    );
-
+        circle 592px at 20% 20%,
+        #8134ff 20%,
+        rgba(11, 14, 16, 0.5) 100%
+      );
     }
 
-    .blur-circle2{
+    .blur-circle2 {
       background: radial-gradient(
-      circle 481px at -15% 40%,
-      #3834ff 20%,
-      rgba(11, 14, 16, 0.5) 100%
-    );
-
+        circle 481px at -15% 40%,
+        #3834ff 20%,
+        rgba(11, 14, 16, 0.5) 100%
+      );
     }
 
-    .principal, .secondary {
+    .principal,
+    .secondary {
       align-items: center;
     }
-    
 
-    .s-description, .p-paragraph, .p-title-company {
+    .s-description,
+    .p-paragraph,
+    .p-title-company {
       text-align: center;
     }
-    .s-description{
+    .s-description {
       z-index: 1;
     }
   }
-
-
 </style>
